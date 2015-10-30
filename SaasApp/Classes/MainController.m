@@ -6,13 +6,13 @@
 //  Copyright © 2015年 ToothBond. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainController.h"
 
-@interface ViewController ()
+@interface MainController ()
 
 @end
 
-@implementation ViewController
+@implementation MainController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
