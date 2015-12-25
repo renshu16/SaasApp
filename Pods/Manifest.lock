@@ -23,17 +23,20 @@ PODS:
   - Masonry (0.6.3)
   - MJExtension (3.0.8)
   - MJRefresh (3.0.8)
+  - YYCache (0.9.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.1)
   - Masonry (~> 0.6.3)
   - MJExtension (~> 3.0.3)
   - MJRefresh (~> 3.0.1)
+  - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MJExtension: 12d2875959b4a0f936ae86b22a1eb6b0251c50ba
   MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  YYCache: e52b170b1095d30329005e4fe450d81c5ebcb45b
 
 COCOAPODS: 0.38.2

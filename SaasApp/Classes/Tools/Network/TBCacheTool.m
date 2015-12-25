@@ -39,7 +39,6 @@
     }else{
         return cacheObject.content;
     }
-//    return cacheObject.content;
 }
 
 - (void)saveCacheWithData:(NSData *)cacheData url:(NSString *)urlStr requestParams:(NSDictionary *)requestDict
