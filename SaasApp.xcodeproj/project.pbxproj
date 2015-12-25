@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8F867006C99A3EEDF265BA2C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F413C340A9A57AD93C448476 /* libPods.a */; };
-		F926015C1BE0B36200F8FF3C /* ISSConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F926015B1BE0B36200F8FF3C /* ISSConnect.m */; };
 		F9581EDB1BDF838E007AC947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581ED91BDF838E007AC947 /* AppDelegate.m */; };
 		F9581EDC1BDF838E007AC947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581EDA1BDF838E007AC947 /* main.m */; };
 		F9581EDF1BDF83A2007AC947 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581EDE1BDF83A2007AC947 /* MainController.m */; };
 		F9581EE11BDF83AB007AC947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9581EE01BDF83AB007AC947 /* Assets.xcassets */; };
 		F97406E11BDF55DE0070F67E /* SaasAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97406E01BDF55DE0070F67E /* SaasAppTests.m */; };
 		F97406EC1BDF55DE0070F67E /* SaasAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97406EB1BDF55DE0070F67E /* SaasAppUITests.m */; };
-		F98314591BE313BA000718A4 /* TBNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F98314581BE313BA000718A4 /* TBNetWorkManager.m */; };
-		F983145C1BE31DAC000718A4 /* TBURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F983145B1BE31DAC000718A4 /* TBURLResponse.m */; };
+		F9F5D2901C2CF14200AA431B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D28F1C2CF14200AA431B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F9F5D2A11C2CF17C00AA431B /* RequestDictionarySerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2931C2CF17C00AA431B /* RequestDictionarySerializer.m */; };
+		F9F5D2A21C2CF17C00AA431B /* ResponseDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2951C2CF17C00AA431B /* ResponseDataSerializer.m */; };
+		F9F5D2A31C2CF17C00AA431B /* TBBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2971C2CF17C00AA431B /* TBBaseNetwork.m */; };
+		F9F5D2A41C2CF17C00AA431B /* TBCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2991C2CF17C00AA431B /* TBCacheObject.m */; };
+		F9F5D2A51C2CF17C00AA431B /* TBCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D29B1C2CF17C00AA431B /* TBCacheTool.m */; };
+		F9F5D2A61C2CF17C00AA431B /* TBResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D29E1C2CF17C00AA431B /* TBResponse.m */; };
+		F9F5D2A71C2CF17C00AA431B /* TokenRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2A01C2CF17C00AA431B /* TokenRequestSerializer.m */; };
+		F9F5D2C21C2CF19800AA431B /* NSDate+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2AA1C2CF19800AA431B /* NSDate+CL.m */; };
+		F9F5D2C31C2CF19800AA431B /* NSDictionary+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2AC1C2CF19800AA431B /* NSDictionary+CL.m */; };
+		F9F5D2C41C2CF19800AA431B /* NSString+TBString.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2AE1C2CF19800AA431B /* NSString+TBString.m */; };
+		F9F5D2C51C2CF19800AA431B /* UIColor+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2B01C2CF19800AA431B /* UIColor+CL.m */; };
+		F9F5D2C61C2CF19800AA431B /* UIFont+TBFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2B21C2CF19800AA431B /* UIFont+TBFont.m */; };
+		F9F5D2C71C2CF19800AA431B /* UIImage+TBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2B41C2CF19800AA431B /* UIImage+TBColor.m */; };
+		F9F5D2C81C2CF19800AA431B /* UIView+TBView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2B61C2CF19800AA431B /* UIView+TBView.m */; };
+		F9F5D2C91C2CF19800AA431B /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2B91C2CF19800AA431B /* CacheManager.m */; };
+		F9F5D2CA1C2CF19800AA431B /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2BB1C2CF19800AA431B /* StringUtils.m */; };
+		F9F5D2CC1C2CF19800AA431B /* TimeMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2BF1C2CF19800AA431B /* TimeMachine.m */; };
+		F9F5D2CD1C2CF19800AA431B /* UIInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2C11C2CF19800AA431B /* UIInfomationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +56,6 @@
 		5270ED2DD26C462B9EA5A85A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E2A8297BD24CE98B733B8970 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F413C340A9A57AD93C448476 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F926015A1BE0B36200F8FF3C /* ISSConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSConnect.h; sourceTree = "<group>"; };
-		F926015B1BE0B36200F8FF3C /* ISSConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSConnect.m; sourceTree = "<group>"; };
 		F9581ED81BDF838E007AC947 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9581ED91BDF838E007AC947 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F9581EDA1BDF838E007AC947 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,12 +70,49 @@
 		F97406E71BDF55DE0070F67E /* SaasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97406EB1BDF55DE0070F67E /* SaasAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaasAppUITests.m; sourceTree = "<group>"; };
 		F97406ED1BDF55DE0070F67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F98314571BE313BA000718A4 /* TBNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNetWorkManager.h; sourceTree = "<group>"; };
-		F98314581BE313BA000718A4 /* TBNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBNetWorkManager.m; sourceTree = "<group>"; };
-		F983145A1BE31DAC000718A4 /* TBURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBURLResponse.h; sourceTree = "<group>"; };
-		F983145B1BE31DAC000718A4 /* TBURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBURLResponse.m; sourceTree = "<group>"; };
-		F983145D1BE31E0A000718A4 /* TBNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBNetworkConfig.h; sourceTree = "<group>"; };
 		F983145E1BE31EF4000718A4 /* Saas_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saas_PrefixHeader.pch; sourceTree = "<group>"; };
+		F9F5D28E1C2CF14200AA431B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		F9F5D28F1C2CF14200AA431B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		F9F5D2921C2CF17C00AA431B /* RequestDictionarySerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDictionarySerializer.h; sourceTree = "<group>"; };
+		F9F5D2931C2CF17C00AA431B /* RequestDictionarySerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestDictionarySerializer.m; sourceTree = "<group>"; };
+		F9F5D2941C2CF17C00AA431B /* ResponseDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseDataSerializer.h; sourceTree = "<group>"; };
+		F9F5D2951C2CF17C00AA431B /* ResponseDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDataSerializer.m; sourceTree = "<group>"; };
+		F9F5D2961C2CF17C00AA431B /* TBBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBaseNetwork.h; sourceTree = "<group>"; };
+		F9F5D2971C2CF17C00AA431B /* TBBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBaseNetwork.m; sourceTree = "<group>"; };
+		F9F5D2981C2CF17C00AA431B /* TBCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCacheObject.h; sourceTree = "<group>"; };
+		F9F5D2991C2CF17C00AA431B /* TBCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCacheObject.m; sourceTree = "<group>"; };
+		F9F5D29A1C2CF17C00AA431B /* TBCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCacheTool.h; sourceTree = "<group>"; };
+		F9F5D29B1C2CF17C00AA431B /* TBCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCacheTool.m; sourceTree = "<group>"; };
+		F9F5D29C1C2CF17C00AA431B /* TBNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNetworkConfig.h; sourceTree = "<group>"; };
+		F9F5D29D1C2CF17C00AA431B /* TBResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBResponse.h; sourceTree = "<group>"; };
+		F9F5D29E1C2CF17C00AA431B /* TBResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBResponse.m; sourceTree = "<group>"; };
+		F9F5D29F1C2CF17C00AA431B /* TokenRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenRequestSerializer.h; sourceTree = "<group>"; };
+		F9F5D2A01C2CF17C00AA431B /* TokenRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenRequestSerializer.m; sourceTree = "<group>"; };
+		F9F5D2A91C2CF19800AA431B /* NSDate+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CL.h"; sourceTree = "<group>"; };
+		F9F5D2AA1C2CF19800AA431B /* NSDate+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CL.m"; sourceTree = "<group>"; };
+		F9F5D2AB1C2CF19800AA431B /* NSDictionary+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CL.h"; sourceTree = "<group>"; };
+		F9F5D2AC1C2CF19800AA431B /* NSDictionary+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CL.m"; sourceTree = "<group>"; };
+		F9F5D2AD1C2CF19800AA431B /* NSString+TBString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TBString.h"; sourceTree = "<group>"; };
+		F9F5D2AE1C2CF19800AA431B /* NSString+TBString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TBString.m"; sourceTree = "<group>"; };
+		F9F5D2AF1C2CF19800AA431B /* UIColor+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CL.h"; sourceTree = "<group>"; };
+		F9F5D2B01C2CF19800AA431B /* UIColor+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CL.m"; sourceTree = "<group>"; };
+		F9F5D2B11C2CF19800AA431B /* UIFont+TBFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TBFont.h"; sourceTree = "<group>"; };
+		F9F5D2B21C2CF19800AA431B /* UIFont+TBFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TBFont.m"; sourceTree = "<group>"; };
+		F9F5D2B31C2CF19800AA431B /* UIImage+TBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBColor.h"; sourceTree = "<group>"; };
+		F9F5D2B41C2CF19800AA431B /* UIImage+TBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBColor.m"; sourceTree = "<group>"; };
+		F9F5D2B51C2CF19800AA431B /* UIView+TBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TBView.h"; sourceTree = "<group>"; };
+		F9F5D2B61C2CF19800AA431B /* UIView+TBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TBView.m"; sourceTree = "<group>"; };
+		F9F5D2B81C2CF19800AA431B /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		F9F5D2B91C2CF19800AA431B /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		F9F5D2BA1C2CF19800AA431B /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		F9F5D2BB1C2CF19800AA431B /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
+		F9F5D2BE1C2CF19800AA431B /* TimeMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMachine.h; sourceTree = "<group>"; };
+		F9F5D2BF1C2CF19800AA431B /* TimeMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMachine.m; sourceTree = "<group>"; };
+		F9F5D2C01C2CF19800AA431B /* UIInfomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfomationView.h; sourceTree = "<group>"; };
+		F9F5D2C11C2CF19800AA431B /* UIInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfomationView.m; sourceTree = "<group>"; };
+		F9F5D2CF1C2CF1CE00AA431B /* CommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonString.h; sourceTree = "<group>"; };
+		F9F5D2D01C2CF1CE00AA431B /* CommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUI.h; sourceTree = "<group>"; };
+		F9F5D2D11C2CF1CE00AA431B /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +161,8 @@
 		F9581ED11BDF828B007AC947 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F9F5D2CE1C2CF1CE00AA431B /* Other */,
+				F9F5D28C1C2CF14200AA431B /* Vendor */,
 				F989926E1BE0AFDE00B71E0C /* Tools */,
 				F9581EDD1BDF83A2007AC947 /* MainController.h */,
 				F9581EDE1BDF83A2007AC947 /* MainController.m */,
@@ -222,23 +275,96 @@
 		F989926E1BE0AFDE00B71E0C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				F989926F1BE0B01600B71E0C /* Network */,
+				F9F5D2A81C2CF19800AA431B /* Category */,
+				F9F5D2B71C2CF19800AA431B /* Utils */,
+				F9F5D2911C2CF17C00AA431B /* Network */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		F989926F1BE0B01600B71E0C /* Network */ = {
+		F9F5D28C1C2CF14200AA431B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				F926015A1BE0B36200F8FF3C /* ISSConnect.h */,
-				F926015B1BE0B36200F8FF3C /* ISSConnect.m */,
-				F98314571BE313BA000718A4 /* TBNetWorkManager.h */,
-				F98314581BE313BA000718A4 /* TBNetWorkManager.m */,
-				F983145A1BE31DAC000718A4 /* TBURLResponse.h */,
-				F983145B1BE31DAC000718A4 /* TBURLResponse.m */,
-				F983145D1BE31E0A000718A4 /* TBNetworkConfig.h */,
+				F9F5D28D1C2CF14200AA431B /* JSONKit */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F9F5D28D1C2CF14200AA431B /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5D28E1C2CF14200AA431B /* JSONKit.h */,
+				F9F5D28F1C2CF14200AA431B /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		F9F5D2911C2CF17C00AA431B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5D2921C2CF17C00AA431B /* RequestDictionarySerializer.h */,
+				F9F5D2931C2CF17C00AA431B /* RequestDictionarySerializer.m */,
+				F9F5D2941C2CF17C00AA431B /* ResponseDataSerializer.h */,
+				F9F5D2951C2CF17C00AA431B /* ResponseDataSerializer.m */,
+				F9F5D2961C2CF17C00AA431B /* TBBaseNetwork.h */,
+				F9F5D2971C2CF17C00AA431B /* TBBaseNetwork.m */,
+				F9F5D2981C2CF17C00AA431B /* TBCacheObject.h */,
+				F9F5D2991C2CF17C00AA431B /* TBCacheObject.m */,
+				F9F5D29A1C2CF17C00AA431B /* TBCacheTool.h */,
+				F9F5D29B1C2CF17C00AA431B /* TBCacheTool.m */,
+				F9F5D29C1C2CF17C00AA431B /* TBNetworkConfig.h */,
+				F9F5D29D1C2CF17C00AA431B /* TBResponse.h */,
+				F9F5D29E1C2CF17C00AA431B /* TBResponse.m */,
+				F9F5D29F1C2CF17C00AA431B /* TokenRequestSerializer.h */,
+				F9F5D2A01C2CF17C00AA431B /* TokenRequestSerializer.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F9F5D2A81C2CF19800AA431B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5D2A91C2CF19800AA431B /* NSDate+CL.h */,
+				F9F5D2AA1C2CF19800AA431B /* NSDate+CL.m */,
+				F9F5D2AB1C2CF19800AA431B /* NSDictionary+CL.h */,
+				F9F5D2AC1C2CF19800AA431B /* NSDictionary+CL.m */,
+				F9F5D2AD1C2CF19800AA431B /* NSString+TBString.h */,
+				F9F5D2AE1C2CF19800AA431B /* NSString+TBString.m */,
+				F9F5D2AF1C2CF19800AA431B /* UIColor+CL.h */,
+				F9F5D2B01C2CF19800AA431B /* UIColor+CL.m */,
+				F9F5D2B11C2CF19800AA431B /* UIFont+TBFont.h */,
+				F9F5D2B21C2CF19800AA431B /* UIFont+TBFont.m */,
+				F9F5D2B31C2CF19800AA431B /* UIImage+TBColor.h */,
+				F9F5D2B41C2CF19800AA431B /* UIImage+TBColor.m */,
+				F9F5D2B51C2CF19800AA431B /* UIView+TBView.h */,
+				F9F5D2B61C2CF19800AA431B /* UIView+TBView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9F5D2B71C2CF19800AA431B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5D2B81C2CF19800AA431B /* CacheManager.h */,
+				F9F5D2B91C2CF19800AA431B /* CacheManager.m */,
+				F9F5D2BA1C2CF19800AA431B /* StringUtils.h */,
+				F9F5D2BB1C2CF19800AA431B /* StringUtils.m */,
+				F9F5D2BE1C2CF19800AA431B /* TimeMachine.h */,
+				F9F5D2BF1C2CF19800AA431B /* TimeMachine.m */,
+				F9F5D2C01C2CF19800AA431B /* UIInfomationView.h */,
+				F9F5D2C11C2CF19800AA431B /* UIInfomationView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F9F5D2CE1C2CF1CE00AA431B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5D2CF1C2CF1CE00AA431B /* CommonString.h */,
+				F9F5D2D01C2CF1CE00AA431B /* CommonUI.h */,
+				F9F5D2D11C2CF1CE00AA431B /* Debug.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,12 +530,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F983145C1BE31DAC000718A4 /* TBURLResponse.m in Sources */,
-				F98314591BE313BA000718A4 /* TBNetWorkManager.m in Sources */,
-				F926015C1BE0B36200F8FF3C /* ISSConnect.m in Sources */,
+				F9F5D2A21C2CF17C00AA431B /* ResponseDataSerializer.m in Sources */,
+				F9F5D2CD1C2CF19800AA431B /* UIInfomationView.m in Sources */,
+				F9F5D2A51C2CF17C00AA431B /* TBCacheTool.m in Sources */,
+				F9F5D2C31C2CF19800AA431B /* NSDictionary+CL.m in Sources */,
+				F9F5D2C71C2CF19800AA431B /* UIImage+TBColor.m in Sources */,
+				F9F5D2A31C2CF17C00AA431B /* TBBaseNetwork.m in Sources */,
+				F9F5D2C81C2CF19800AA431B /* UIView+TBView.m in Sources */,
+				F9F5D2C41C2CF19800AA431B /* NSString+TBString.m in Sources */,
+				F9F5D2A11C2CF17C00AA431B /* RequestDictionarySerializer.m in Sources */,
+				F9F5D2A41C2CF17C00AA431B /* TBCacheObject.m in Sources */,
+				F9F5D2C61C2CF19800AA431B /* UIFont+TBFont.m in Sources */,
 				F9581EDF1BDF83A2007AC947 /* MainController.m in Sources */,
 				F9581EDC1BDF838E007AC947 /* main.m in Sources */,
+				F9F5D2C21C2CF19800AA431B /* NSDate+CL.m in Sources */,
+				F9F5D2901C2CF14200AA431B /* JSONKit.m in Sources */,
+				F9F5D2A61C2CF17C00AA431B /* TBResponse.m in Sources */,
+				F9F5D2C91C2CF19800AA431B /* CacheManager.m in Sources */,
+				F9F5D2CA1C2CF19800AA431B /* StringUtils.m in Sources */,
+				F9F5D2C51C2CF19800AA431B /* UIColor+CL.m in Sources */,
 				F9581EDB1BDF838E007AC947 /* AppDelegate.m in Sources */,
+				F9F5D2CC1C2CF19800AA431B /* TimeMachine.m in Sources */,
+				F9F5D2A71C2CF17C00AA431B /* TokenRequestSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
