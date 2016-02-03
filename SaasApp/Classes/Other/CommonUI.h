@@ -22,13 +22,13 @@
 #define ContentFontSize         14.0
 #define SubContentFontSize      12.0
 
-#define font_main_title         [UIFont tbFontOfSize:MainTitleFontSize]
-#define font_title              [UIFont tbFontOfSize:TitleFontSize]
-#define font_sub_title          [UIFont tbFontOfSize:SubTitleFontSize]
+#define font_main_title         [UIFont systemFontOfSize:MainTitleFontSize]
+#define font_title              [UIFont systemFontOfSize:TitleFontSize]
+#define font_sub_title          [UIFont systemFontOfSize:SubTitleFontSize]
 
-#define font_main_content       [UIFont tbFontOfSize:MainContentFontSize]
-#define font_content            [UIFont tbFontOfSize:ContentFontSize]
-#define font_sub_content        [UIFont tbFontOfSize:SubContentFontSize]
+#define font_main_content       [UIFont systemFontOfSize:MainContentFontSize]
+#define font_content            [UIFont systemFontOfSize:ContentFontSize]
+#define font_sub_content        [UIFont systemFontOfSize:SubContentFontSize]
 
 
 

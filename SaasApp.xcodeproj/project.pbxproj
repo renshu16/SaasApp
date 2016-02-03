@@ -14,6 +14,18 @@
 		F9581EE11BDF83AB007AC947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9581EE01BDF83AB007AC947 /* Assets.xcassets */; };
 		F97406E11BDF55DE0070F67E /* SaasAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97406E01BDF55DE0070F67E /* SaasAppTests.m */; };
 		F97406EC1BDF55DE0070F67E /* SaasAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F97406EB1BDF55DE0070F67E /* SaasAppUITests.m */; };
+		F9F576621C61A2970014D9FD /* TBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5765F1C61A2970014D9FD /* TBBaseController.m */; };
+		F9F576631C61A2970014D9FD /* TBBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576611C61A2970014D9FD /* TBBaseView.m */; };
+		F9F576731C61A3420014D9FD /* CustomPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576661C61A3420014D9FD /* CustomPickView.m */; };
+		F9F576741C61A3420014D9FD /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576681C61A3420014D9FD /* DZNSegmentedControl.m */; };
+		F9F576751C61A3420014D9FD /* TBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5766A1C61A3420014D9FD /* TBButton.m */; };
+		F9F576761C61A3420014D9FD /* TBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5766C1C61A3420014D9FD /* TBLoadingView.m */; };
+		F9F576771C61A3420014D9FD /* TBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5766E1C61A3420014D9FD /* TBScrollView.m */; };
+		F9F576781C61A3420014D9FD /* UIPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576701C61A3420014D9FD /* UIPlaceholderTextView.m */; };
+		F9F576791C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576721C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.m */; };
+		F9F576801C61A5D60014D9FD /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5767F1C61A5D60014D9FD /* FirstController.m */; };
+		F9F576831C61A7300014D9FD /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576821C61A7300014D9FD /* SecondController.m */; };
+		F9F576861C61A7540014D9FD /* ThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F576851C61A7540014D9FD /* ThirdController.m */; };
 		F9F5D2901C2CF14200AA431B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D28F1C2CF14200AA431B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F9F5D2A11C2CF17C00AA431B /* RequestDictionarySerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2931C2CF17C00AA431B /* RequestDictionarySerializer.m */; };
 		F9F5D2A21C2CF17C00AA431B /* ResponseDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D2951C2CF17C00AA431B /* ResponseDataSerializer.m */; };
@@ -71,6 +83,30 @@
 		F97406EB1BDF55DE0070F67E /* SaasAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaasAppUITests.m; sourceTree = "<group>"; };
 		F97406ED1BDF55DE0070F67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F983145E1BE31EF4000718A4 /* Saas_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saas_PrefixHeader.pch; sourceTree = "<group>"; };
+		F9F5765E1C61A2970014D9FD /* TBBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBaseController.h; sourceTree = "<group>"; };
+		F9F5765F1C61A2970014D9FD /* TBBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBaseController.m; sourceTree = "<group>"; };
+		F9F576601C61A2970014D9FD /* TBBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBaseView.h; sourceTree = "<group>"; };
+		F9F576611C61A2970014D9FD /* TBBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBaseView.m; sourceTree = "<group>"; };
+		F9F576651C61A3420014D9FD /* CustomPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickView.h; sourceTree = "<group>"; };
+		F9F576661C61A3420014D9FD /* CustomPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickView.m; sourceTree = "<group>"; };
+		F9F576671C61A3420014D9FD /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		F9F576681C61A3420014D9FD /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		F9F576691C61A3420014D9FD /* TBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBButton.h; sourceTree = "<group>"; };
+		F9F5766A1C61A3420014D9FD /* TBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBButton.m; sourceTree = "<group>"; };
+		F9F5766B1C61A3420014D9FD /* TBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLoadingView.h; sourceTree = "<group>"; };
+		F9F5766C1C61A3420014D9FD /* TBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLoadingView.m; sourceTree = "<group>"; };
+		F9F5766D1C61A3420014D9FD /* TBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBScrollView.h; sourceTree = "<group>"; };
+		F9F5766E1C61A3420014D9FD /* TBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBScrollView.m; sourceTree = "<group>"; };
+		F9F5766F1C61A3420014D9FD /* UIPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceholderTextView.h; sourceTree = "<group>"; };
+		F9F576701C61A3420014D9FD /* UIPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceholderTextView.m; sourceTree = "<group>"; };
+		F9F576711C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DZNSegmentedControl.h"; sourceTree = "<group>"; };
+		F9F576721C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DZNSegmentedControl.m"; sourceTree = "<group>"; };
+		F9F5767E1C61A5D60014D9FD /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
+		F9F5767F1C61A5D60014D9FD /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		F9F576811C61A7300014D9FD /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		F9F576821C61A7300014D9FD /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		F9F576841C61A7540014D9FD /* ThirdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdController.h; sourceTree = "<group>"; };
+		F9F576851C61A7540014D9FD /* ThirdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdController.m; sourceTree = "<group>"; };
 		F9F5D28E1C2CF14200AA431B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		F9F5D28F1C2CF14200AA431B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		F9F5D2921C2CF17C00AA431B /* RequestDictionarySerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDictionarySerializer.h; sourceTree = "<group>"; };
@@ -161,6 +197,8 @@
 		F9581ED11BDF828B007AC947 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F9F5767A1C61A3AD0014D9FD /* WorkFolder */,
+				F9F5765D1C61A2420014D9FD /* Base */,
 				F9F5D2CE1C2CF1CE00AA431B /* Other */,
 				F9F5D28C1C2CF14200AA431B /* Vendor */,
 				F989926E1BE0AFDE00B71E0C /* Tools */,
@@ -275,11 +313,81 @@
 		F989926E1BE0AFDE00B71E0C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F9F576641C61A3420014D9FD /* Views */,
 				F9F5D2A81C2CF19800AA431B /* Category */,
 				F9F5D2B71C2CF19800AA431B /* Utils */,
 				F9F5D2911C2CF17C00AA431B /* Network */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		F9F5765D1C61A2420014D9FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5765E1C61A2970014D9FD /* TBBaseController.h */,
+				F9F5765F1C61A2970014D9FD /* TBBaseController.m */,
+				F9F576601C61A2970014D9FD /* TBBaseView.h */,
+				F9F576611C61A2970014D9FD /* TBBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F9F576641C61A3420014D9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9F576651C61A3420014D9FD /* CustomPickView.h */,
+				F9F576661C61A3420014D9FD /* CustomPickView.m */,
+				F9F576671C61A3420014D9FD /* DZNSegmentedControl.h */,
+				F9F576681C61A3420014D9FD /* DZNSegmentedControl.m */,
+				F9F576691C61A3420014D9FD /* TBButton.h */,
+				F9F5766A1C61A3420014D9FD /* TBButton.m */,
+				F9F5766B1C61A3420014D9FD /* TBLoadingView.h */,
+				F9F5766C1C61A3420014D9FD /* TBLoadingView.m */,
+				F9F5766D1C61A3420014D9FD /* TBScrollView.h */,
+				F9F5766E1C61A3420014D9FD /* TBScrollView.m */,
+				F9F5766F1C61A3420014D9FD /* UIPlaceholderTextView.h */,
+				F9F576701C61A3420014D9FD /* UIPlaceholderTextView.m */,
+				F9F576711C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.h */,
+				F9F576721C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9F5767A1C61A3AD0014D9FD /* WorkFolder */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5767D1C61A3D50014D9FD /* module3 */,
+				F9F5767C1C61A3CF0014D9FD /* module2 */,
+				F9F5767B1C61A3B50014D9FD /* module1 */,
+			);
+			path = WorkFolder;
+			sourceTree = "<group>";
+		};
+		F9F5767B1C61A3B50014D9FD /* module1 */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5767E1C61A5D60014D9FD /* FirstController.h */,
+				F9F5767F1C61A5D60014D9FD /* FirstController.m */,
+			);
+			name = module1;
+			sourceTree = "<group>";
+		};
+		F9F5767C1C61A3CF0014D9FD /* module2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9F576811C61A7300014D9FD /* SecondController.h */,
+				F9F576821C61A7300014D9FD /* SecondController.m */,
+			);
+			name = module2;
+			sourceTree = "<group>";
+		};
+		F9F5767D1C61A3D50014D9FD /* module3 */ = {
+			isa = PBXGroup;
+			children = (
+				F9F576841C61A7540014D9FD /* ThirdController.h */,
+				F9F576851C61A7540014D9FD /* ThirdController.m */,
+			);
+			name = module3;
 			sourceTree = "<group>";
 		};
 		F9F5D28C1C2CF14200AA431B /* Vendor */ = {
@@ -531,6 +639,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F5D2A21C2CF17C00AA431B /* ResponseDataSerializer.m in Sources */,
+				F9F576781C61A3420014D9FD /* UIPlaceholderTextView.m in Sources */,
 				F9F5D2CD1C2CF19800AA431B /* UIInfomationView.m in Sources */,
 				F9F5D2A51C2CF17C00AA431B /* TBCacheTool.m in Sources */,
 				F9F5D2C31C2CF19800AA431B /* NSDictionary+CL.m in Sources */,
@@ -541,7 +650,11 @@
 				F9F5D2A11C2CF17C00AA431B /* RequestDictionarySerializer.m in Sources */,
 				F9F5D2A41C2CF17C00AA431B /* TBCacheObject.m in Sources */,
 				F9F5D2C61C2CF19800AA431B /* UIFont+TBFont.m in Sources */,
+				F9F576631C61A2970014D9FD /* TBBaseView.m in Sources */,
+				F9F576861C61A7540014D9FD /* ThirdController.m in Sources */,
 				F9581EDF1BDF83A2007AC947 /* MainController.m in Sources */,
+				F9F576791C61A3420014D9FD /* UIScrollView+DZNSegmentedControl.m in Sources */,
+				F9F576731C61A3420014D9FD /* CustomPickView.m in Sources */,
 				F9581EDC1BDF838E007AC947 /* main.m in Sources */,
 				F9F5D2C21C2CF19800AA431B /* NSDate+CL.m in Sources */,
 				F9F5D2901C2CF14200AA431B /* JSONKit.m in Sources */,
@@ -549,9 +662,16 @@
 				F9F5D2C91C2CF19800AA431B /* CacheManager.m in Sources */,
 				F9F5D2CA1C2CF19800AA431B /* StringUtils.m in Sources */,
 				F9F5D2C51C2CF19800AA431B /* UIColor+CL.m in Sources */,
+				F9F576751C61A3420014D9FD /* TBButton.m in Sources */,
+				F9F576801C61A5D60014D9FD /* FirstController.m in Sources */,
+				F9F576771C61A3420014D9FD /* TBScrollView.m in Sources */,
 				F9581EDB1BDF838E007AC947 /* AppDelegate.m in Sources */,
+				F9F576831C61A7300014D9FD /* SecondController.m in Sources */,
+				F9F576621C61A2970014D9FD /* TBBaseController.m in Sources */,
 				F9F5D2CC1C2CF19800AA431B /* TimeMachine.m in Sources */,
+				F9F576761C61A3420014D9FD /* TBLoadingView.m in Sources */,
 				F9F5D2A71C2CF17C00AA431B /* TokenRequestSerializer.m in Sources */,
+				F9F576741C61A3420014D9FD /* DZNSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
