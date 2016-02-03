@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainController.h"
+#import "IQKeyboardManager.h"
+#import "TableFieldController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+//    [[IQKeyboardManager sharedManager] disableDistanceHandlingInViewControllerClass:[TableFieldController class]];
+    [[IQKeyboardManager sharedManager] disableToolbarInViewControllerClass:[TableFieldController class]];
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     MainController *mainController = [[MainController alloc]init];
