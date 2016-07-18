@@ -424,6 +424,14 @@ static BOOL _canSendMessage = YES;
     manager.requestSerializer                         = requestSerializer;
     // 设置回复类型
     manager.responseSerializer                        = responseSerializer;
+    //请求类型
+    if (!manager.requestSerializer) {
+        manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    }
+    //响应类型
+    if (!manager.responseSerializer) {
+        manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    }
     // 设置回复内容信息
     manager.responseSerializer.acceptableContentTypes = [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     

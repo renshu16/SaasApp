@@ -7,8 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TBBaseNetwork.h"
 
-@interface SaasAppTests : XCTestCase
+@interface SaasAppTests : XCTestCase<TBBaseNetworkProrocol>
 
 @end
 
@@ -27,6 +28,20 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    TBBaseNetwork *network = [TBBaseNetwork networkingWithUrlString:nil requestDictionary:@{@"jid":@"lisi@192.168.1.140"} delegate:self];
+
+    network.urlString = @"http://192.168.1.140:9090/plugins/presence/status";
+    [network startRequest];
+}
+
+-(void)requestSuccess:(TBResponse *)response
+{
+    DEBUG_NSLOG(@"%s--%@",__FUNCTION__,response);
+}
+
+-(void)requestFailed:(TBResponse *)response
+{
+    DEBUG_NSLOG(@"%s--%@",__FUNCTION__,response);
 }
 
 - (void)testPerformanceExample {

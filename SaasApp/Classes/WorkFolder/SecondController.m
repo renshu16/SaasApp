@@ -28,11 +28,6 @@
     self.view.backgroundColor = [UIColor blueColor];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 -(void)setupTabBarStyle
 {
     self.title = NSStringFromClass([self class]);

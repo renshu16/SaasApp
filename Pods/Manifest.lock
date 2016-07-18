@@ -20,23 +20,46 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.8.3):
+    - DACircularProgress
+    - pop
+    - SDWebImage
   - Masonry (0.6.3)
   - MJExtension (3.0.8)
   - MJRefresh (3.0.8)
+  - pop (1.0.9)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
   - YYCache (0.9.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.1)
+  - IDMPhotoBrowser (from `https://github.com/renshu16/IDMPhotoBrowser.git`)
   - Masonry (~> 0.6.3)
   - MJExtension (~> 3.0.3)
   - MJRefresh (~> 3.0.1)
   - YYCache
 
+EXTERNAL SOURCES:
+  IDMPhotoBrowser:
+    :git: https://github.com/renshu16/IDMPhotoBrowser.git
+
+CHECKOUT OPTIONS:
+  IDMPhotoBrowser:
+    :commit: cc2905d975cc52b0ba16f7bb73c109abfcbe8331
+    :git: https://github.com/renshu16/IDMPhotoBrowser.git
+
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: a9a548910f24a6db53775fa6b6a6101262b20d63
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MJExtension: 12d2875959b4a0f936ae86b22a1eb6b0251c50ba
   MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   YYCache: e52b170b1095d30329005e4fe450d81c5ebcb45b
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

@@ -10,6 +10,7 @@
 #import "TableFieldController.h"
 
 static NSString  * const kFirstCellTitle = @"tableViewWithTextField";
+static NSString  * const kSencondCellTitle = @"icloud notes";
 
 @interface FirstController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -27,7 +28,7 @@ static NSString  * const kFirstCellTitle = @"tableViewWithTextField";
 {
     if (self = [super init]) {
         [self setupTabBarStyle];
-        dataList = @[kFirstCellTitle];
+        dataList = @[kFirstCellTitle,kSencondCellTitle];
     }
     return self;
 }
@@ -53,7 +54,7 @@ static NSString  * const kFirstCellTitle = @"tableViewWithTextField";
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *identify = @"first cell";
+    static NSString *identify = @"cell identify";
     NSInteger row = [indexPath row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identify];
     if (cell == nil) {
@@ -68,6 +69,11 @@ static NSString  * const kFirstCellTitle = @"tableViewWithTextField";
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *title = [dataList objectAtIndex:[indexPath row]];
     if ([title isEqualToString:kFirstCellTitle]) {
+        TableFieldController *controller = [[TableFieldController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    else if([title isEqualToString:kSencondCellTitle]) {
+        
         TableFieldController *controller = [[TableFieldController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }

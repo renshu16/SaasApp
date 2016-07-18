@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C78D2225BCFEE18033D1D50 /* libPods-SaasApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 876987228D7F021B10513C81 /* libPods-SaasApp.a */; };
 		8F867006C99A3EEDF265BA2C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F413C340A9A57AD93C448476 /* libPods.a */; };
+		AB598337FCA715A43CD61912 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F413C340A9A57AD93C448476 /* libPods.a */; };
 		F9581EDB1BDF838E007AC947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581ED91BDF838E007AC947 /* AppDelegate.m */; };
 		F9581EDC1BDF838E007AC947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581EDA1BDF838E007AC947 /* main.m */; };
 		F9581EDF1BDF83A2007AC947 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9581EDE1BDF83A2007AC947 /* MainController.m */; };
@@ -81,6 +83,7 @@
 
 /* Begin PBXFileReference section */
 		5270ED2DD26C462B9EA5A85A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		876987228D7F021B10513C81 /* libPods-SaasApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaasApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A8297BD24CE98B733B8970 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F413C340A9A57AD93C448476 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9581ED81BDF838E007AC947 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F867006C99A3EEDF265BA2C /* libPods.a in Frameworks */,
+				5C78D2225BCFEE18033D1D50 /* libPods-SaasApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB598337FCA715A43CD61912 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,8 +242,16 @@
 			isa = PBXGroup;
 			children = (
 				F413C340A9A57AD93C448476 /* libPods.a */,
+				876987228D7F021B10513C81 /* libPods-SaasApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F941DAE91C9401C1001EC0BB /* icloud */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = icloud;
 			sourceTree = "<group>";
 		};
 		F9581ED11BDF828B007AC947 /* Classes */ = {
@@ -413,6 +426,7 @@
 		F9F5767B1C61A3B50014D9FD /* module1_UI */ = {
 			isa = PBXGroup;
 			children = (
+				F941DAE91C9401C1001EC0BB /* icloud */,
 				F9F5767E1C61A5D60014D9FD /* FirstController.h */,
 				F9F5767F1C61A5D60014D9FD /* FirstController.m */,
 				F9F576871C61D2C70014D9FD /* TableFieldController.h */,
@@ -614,6 +628,7 @@
 				F97406C01BDF55DE0070F67E /* Frameworks */,
 				F97406C11BDF55DE0070F67E /* Resources */,
 				6B61CA4E3A4C565E2E3DA08E /* Copy Pods Resources */,
+				C93777EDAB48DDA66C2DB039 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -628,9 +643,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97406F31BDF55DE0070F67E /* Build configuration list for PBXNativeTarget "SaasAppTests" */;
 			buildPhases = (
+				D1082EBF27C6A2E1E6ACA468 /* Check Pods Manifest.lock */,
 				F97406D81BDF55DE0070F67E /* Sources */,
 				F97406D91BDF55DE0070F67E /* Frameworks */,
 				F97406DA1BDF55DE0070F67E /* Resources */,
+				F8F1365710A4DA9D00D51410 /* Copy Pods Resources */,
+				D920DDFF8458DBAB5360D919 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -757,6 +775,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C93777EDAB48DDA66C2DB039 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1082EBF27C6A2E1E6ACA468 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D920DDFF8458DBAB5360D919 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F1365710A4DA9D00D51410 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -963,8 +1041,11 @@
 		};
 		F97406F41BDF55DE0070F67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A8297BD24CE98B733B8970 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SaasApp/Saas_PrefixHeader.pch;
 				INFOPLIST_FILE = SaasAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rensq.SaasAppTests;
@@ -975,8 +1056,11 @@
 		};
 		F97406F51BDF55DE0070F67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5270ED2DD26C462B9EA5A85A /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SaasApp/Saas_PrefixHeader.pch;
 				INFOPLIST_FILE = SaasAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rensq.SaasAppTests;
